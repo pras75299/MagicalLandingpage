@@ -119,21 +119,33 @@ body, html{
 }
 
 .section-features {
-    padding: 80px 0;
+    padding: 30px 0 80px 0;
     background-image: linear-gradient(to right top, rgba(96, 189, 158, 0.9), rgba(16, 152, 106, 0.9)), url(../images/header.jpg);
     background-size: cover;
     background-position: top;
     clear: both;
+
+    h2{
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        font-weight: 900;
+        margin: 50px 0;
+
+    }
     
     }
 
     .reasonsfact{
         color: #fff;
         font-weight: 400;
-        a{
+        padding: 10px 0 10px 0;
+        display: flex;
+        button{
             display: inline-block;
             text-decoration: none;
             text-align: center;
+            flex: 1 1 auto;
             
             &:link{
                 color: #ffffff;
@@ -145,11 +157,27 @@ body, html{
             }
 
             &:hover{
-                color:#00523d;
+                color:#fff;
                 text-decoration: none;
             }
         }
     }
+.colsmclass1{
+    padding-top: 0px;
+    h3{
+        font-size: 25px;
+        font-weight: 900;
+        color: #fff;
+        padding-left: 30px;
+    }
+}
+.colsmclass2{
+    h3{
+        font-size: 25px;
+        font-weight: 900;
+        color: #fff;
+    }
+}
 
 .modalclass{
     padding: 12px 30px !important;
